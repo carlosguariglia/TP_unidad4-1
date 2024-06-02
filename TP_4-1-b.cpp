@@ -21,16 +21,17 @@ int main() {
     }
 
     int menu;
-    clearConsole();
-
+    
     do {
+        clearConsole();
         cout << "****************************" << endl;
         cout << "Frases de Bjarme" << endl;
         cout << "****************************" << endl;
         cout << "1. Mostrar una frase" << endl;
         cout << "2. Mostrar todas las frases" << endl;
         cout << "3. Salir" << endl;
-        cout << "Introduce una opcion: ";
+        cout << "Introduce una opcion: " << endl;
+        cout << "****************************" << endl;
         cin >> menu;
 
         switch (menu) {
@@ -39,21 +40,29 @@ int main() {
                 if (frase== "")
                     {cout << "No hay mas frases" << endl;}
                 else
-                    {cout << frase << endl;} // Imprime la frase
+                    {
+                    cout << frase << endl; // Imprime la frase
+                    }
+                cout << "Presione ENTER para continuar" << endl;
+                cin.ignore();
+                cin.get(); 
                 break;
             case 2:
                 getline(fichero, frase);
                 while (frase != "")
-                    {cout << frase << endl;
+                {   cout << frase << endl;
                     getline(fichero, frase);
-                    }
+                }
                 if (frase == "")
                     if (primerapasada == 0) // Si es la primera vez que se ejecuta el bucle, no hay frases
                         primerapasada=1;
                     else
                     {cout << "No hay mas frases" << endl;
                     }
-                    break; // Termina el bucle si la frase es vacía
+                cout << "Presione ENTER para continuar" << endl;
+                cin.ignore();
+                cin.get();
+                break; // Termina el bucle si la frase es vacía
             case 3:
                 break;
             default:

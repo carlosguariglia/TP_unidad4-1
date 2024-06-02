@@ -6,6 +6,9 @@ deberá guardarse en el fichero) y
 las guarde en la variable junto con las frases ya leidas. 
 al terminar se guardara en un archivo fichero llamado “frasesDeBjarme.txt”.
 
+El programa permite que el archivo frasesDeBjarme.txt exista con frases y 
+se pueda agregar mas frases. si el archivo no existiera se crea.
+
 */
 
 #include <iostream>
@@ -14,9 +17,11 @@ al terminar se guardara en un archivo fichero llamado “frasesDeBjarme.txt”.
 
 using namespace std;
 
+void clearConsole();
+
 int main() 
-{
-    ifstream ficheroEntrada("frasesDeBjarme.txt"); // Abre el archivo en modo lectura
+{   string filename="frasesDeBjarme.txt";
+    ifstream ficheroEntrada(filename); // Abre el archivo en modo lectura
     ofstream ficheroSalida; // Se usará para escribir en el archivo
     string frases; // Variable para almacenar todas las frases
     string frase;
@@ -38,7 +43,12 @@ int main()
     ficheroEntrada.close();
 
     // Solicita al usuario que ingrese nuevas frases
-    cout << "Introduce una frase (escribe 'fin' para terminar): ";
+    clearConsole();
+    cout << "************************************************" << endl;
+    cout << "Frases de Bjarme" << endl;
+    cout << "************************************************" << endl;
+    cout << "Introduce una frase para agregar al archivo" << endl; 
+    cout << "(escribe 'fin' para terminar): " << endl;
     getline(cin, frase);
 
     while (frase != "fin") 
@@ -49,7 +59,7 @@ int main()
     }
 
     // Abre el archivo en modo escritura (se sobreescribirá el contenido)
-    ficheroSalida.open("frasesDeBjarme.txt");
+    ficheroSalida.open(filename);
 
     // Verifica si el archivo se abrió correctamente
     if (!ficheroSalida.is_open()) 
@@ -65,4 +75,14 @@ int main()
     ficheroSalida.close();
 
     return 0;
+}
+
+void clearConsole() {
+    #ifdef __unix__
+        system("clear");
+    #elif __APPLE__
+        system("clear");
+    #elif defined(_WIN32) || defined(WIN64)
+        system("cls");
+    #endif
 }

@@ -19,7 +19,7 @@ People who think they know everything really annoy those of us who know we don't
 "How to test?" is a question that cannot be answered in general. "When to test?" however, does have a general answer: as early and as often as possible.
 Design and programming are human activities; forget that and all is lost.
 "Legacy code" often differs from its suggested alternative by actually working and scaling.
-There are more useful systems developed in languages deemed awful than in languages praised for being beautiful--many more.
+There are more useful systems developed in languages deemed awful than in languages praised for being beautiful many more.
 The connection between the language in which we think/program and the problems and solutions we can imagine is very close. For this reason restricting language features with the intent of eliminating programmer errors is at best dangerous.
 Being good in just one thing it’s not enough, you have to be sufficiently good in everything.
 Keep simple things simple.
