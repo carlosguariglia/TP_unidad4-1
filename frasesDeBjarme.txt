@@ -1,1 +1,34 @@
-ojo con lo que codificas porque sino revienta como un
+ojo con lo que codificas porque sino revienta como un sapo
+Siempre deseé que mi computadora fuera tan fácil de usar como mi teléfono. Mi deseo se ha hecho realidad: ya no sé usar mi teléfono.
+Un código sin polimorfismo pero a la vez orientado a objetos es maravilloso.
+Existen dos tipos de lenguajes de programación: por un lado, aquellos de los que la gente se queja todo el rato; por otro, los que nadie utiliza.
+There are only two kinds of languages: the ones people complain about and the ones nobody uses.
+Pointers are really good for pointing to things.
+C++ protects against accident, not against fraud.
+I'm convinced that you could design a language about a tenth of the size of C++ (whichever way you measure size) providing roughly what C++ does.
+[Corporate programming] is often done to the point where the individual is completely submerged in corporate "culture" with no outlet for unique talents and skills. Corporate practices can be directly hostile to individuals with exceptional skills and initiative in technical matters. I consider such management of technical people cruel and wasteful.
+Anybody who comes to you and says he has a perfect language is either naïve or a salesman.
+One of the things I really like about programming languages is that it's the perfect excuse to stick your nose into any field. So if you're interested in high energy physics and the structure of the universe, being a programmer is one of the best ways to get in there. It's probably easier than becoming a theoretical physicist
+If you think it's simple, then you have misunderstood the problem.
+An organisation that treats its programmers as morons will soon have programmers that are willing and able to act like morons only.
+A program that has not been tested does not work.
+Within C++, there is a much smaller and cleaner language struggling to get out.
+Far too often, "software engineering" is neither engineering nor about software.
+C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
+People who think they know everything really annoy those of us who know we don't.
+"How to test?" is a question that cannot be answered in general. "When to test?" however, does have a general answer: as early and as often as possible.
+Design and programming are human activities; forget that and all is lost.
+"Legacy code" often differs from its suggested alternative by actually working and scaling.
+There are more useful systems developed in languages deemed awful than in languages praised for being beautiful--many more.
+The connection between the language in which we think/program and the problems and solutions we can imagine is very close. For this reason restricting language features with the intent of eliminating programmer errors is at best dangerous.
+Being good in just one thing it’s not enough, you have to be sufficiently good in everything.
+Keep simple things simple.
+“I invented auto in 83 and it had incompatibility problems, so I had to wait 25 years”
+Everyone writes code as they’re used to, and that’s ugly.
+I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone.
+If you do anything useful it will haunt you forever after, and if you have a major success you get decades of hard manual labor - meaning you have to work on the manual.
+Proof by analogy is fraud.
+Maybe "just one little global variable" isn't too unmanageable, but that style leads to code that is useless except to its original programmer
+I do not think that safety should be bought at the cost of complicating the expression of good solutions to real-life problems.
+The best is the enemy of the good.
+Dream no little dreams.
